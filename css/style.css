@@ -74,7 +74,7 @@ header nav ul li a:hover {
     align-items: center;
     height: 500px;
     text-align: center;
-    background-image: url("./img/banner-sneackers.jpg");
+    background-image: url("../img/banner-sneackers.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,7 +254,7 @@ header nav ul li a:hover {
 
 .heroservicios{
 
-    background-image: url(./img/banner-servicios.jpg);
+    background-image: url(../img/banner-servicios.jpg);
     height: 300px;
     background-position: bottom; 
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@ header nav ul li a:hover {
     
     .heronosotros{
         height: 800px;
-        background-image: url(./img/hero-nosotros.png);
+        background-image: url(../img/hero-nosotros.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
@@ -468,7 +468,7 @@ header nav ul li a:hover {
 
 .heroproductos {
         height: 300px;
-        background-image: url("./img/sneakers-banner.PNG");
+        background-image: url("../img/sneakers-banner.PNG");
         background-position: center;
         text-align: center;
         background-repeat: no-repeat;
