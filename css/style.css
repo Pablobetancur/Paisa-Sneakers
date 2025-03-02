@@ -687,7 +687,7 @@ footer div a img {
     .heroproductos{
 
         height: 350px;
-        background-image: url("./img/sneakers-banner.PNG");
+        background-image: url("../img/sneakers-banner.PNG");
         background-position: bottom; 
         text-align: center;
         background-repeat: no-repeat;

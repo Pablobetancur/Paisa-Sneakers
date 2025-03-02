@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+$rojo:red;
+$negro:black;
+
+@mixin proporcion ($alto,$ancho){
+
+        width: $ancho;
+        height: $alto;
+}
+
+@mixin espacio ($margin, $padding){
+    
+    margin: $margin ;
+    padding: $padding ;
+
+}
+
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
+
+
+*{
+    @include espacio(0px, 0px);
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}

@@ -1,0 +1,62 @@
+header{
+    background-color: $negro;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; 
+
+    h1 {
+        color: $rojo;    
+        font-weight: 900;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: $rojo;
+        border-bottom: 0.3125rem dotted red;
+        font-size: 3.5rem;
+    }
+
+    h1 a:hover {
+        color: white;
+        border-bottom: 0.3125rem solid white; 
+    }
+
+    nav ul {
+        list-style: none;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 50px;
+        justify-content: end;
+    }
+
+    nav ul li {
+        border-bottom: 5px dotted white;
+    }
+
+    ul li:hover {
+        border-bottom: 5px solid red;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.375rem;
+        font-weight: 650;
+    }
+
+    ul li a:hover {
+        color: $rojo;
+    }
+
+
+}
+    
+
+
+
+
+

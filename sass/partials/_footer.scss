@@ -1,0 +1,40 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: $rojo;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+
+    h4 {
+        font-size: 25px;
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+        
+    }
+
+    h5 {
+        font-size: 25px;
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+        
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+
+    div a img {
+        @include proporcion(70px, 70px);
+        padding: 6px;
+        
+        
+    }
+
+
+
+
+
+}

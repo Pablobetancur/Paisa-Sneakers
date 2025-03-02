@@ -1,0 +1,73 @@
+.heroservicios{
+
+    background-image: url(../img/banner-servicios.jpg);
+    height: 300px;
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+    h1{
+    
+        color: white;
+        font-size: 100px;
+        border: 5px solid white;
+        border-radius: 30px;
+        text-align: center;
+        text-shadow: 2px 2px 5px $negro;
+        
+    }
+        
+}
+
+.servicios-conte{
+    
+    
+    height: 400px;
+    background-color: $negro;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+
+    ul{
+    
+        
+        border: 5px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+    }
+
+
+    ul li{
+    
+        text-align: left;
+        font-size: 17px;
+
+    }
+
+
+}
+
+.imagenesdeservicios{
+    
+    
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+    
+        height: 500px;
+        margin: 15px;
+        border: 10px dotted rgb(0, 0, 0);
+    }
+
+    
+}
