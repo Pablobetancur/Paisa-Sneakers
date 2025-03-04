@@ -27,7 +27,7 @@
         border-radius: 1.875rem;
     }
 
-    h1 {
+    h2 {
         font-size: 3.4375rem;
         color: white;
         padding: 15px;
@@ -124,13 +124,13 @@
     text-align: center;
 
     h3 {
-        font-size: 2.1875rem;
+        font-size: 2rem;
         background-color: white;
         color: red;
         padding: 10px;
         border: 0.125rem solid red;
         border-radius: 0.625rem;
-        width: 100%;
+        width: 80%;
 
         &:hover {
             background-color: red;

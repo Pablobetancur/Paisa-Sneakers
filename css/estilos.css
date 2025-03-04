@@ -83,13 +83,13 @@ header ul li a:hover {
   border: solid white 10px;
   border-radius: 1.875rem;
 }
-.hero h1 {
+.hero h2 {
   font-size: 3.4375rem;
   color: white;
   padding: 15px;
   text-shadow: 2px 2px 5px black;
 }
-.hero h1:hover {
+.hero h2:hover {
   text-shadow: 10px 10px 10px rgb(255, 255, 255);
 }
 .hero p {
@@ -166,13 +166,13 @@ header ul li a:hover {
   text-align: center;
 }
 .envios h3 {
-  font-size: 2.1875rem;
+  font-size: 2rem;
   background-color: white;
   color: red;
   padding: 10px;
   border: 0.125rem solid red;
   border-radius: 0.625rem;
-  width: 100%;
+  width: 80%;
 }
 .envios h3:hover {
   background-color: red;
@@ -395,10 +395,14 @@ footer {
 }
 footer h4 {
   font-size: 25px;
+}
+footer h4:hover {
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 footer h5 {
   font-size: 25px;
+}
+footer h5:hover {
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 footer div {
@@ -411,6 +415,11 @@ footer div a img {
   width: 70px;
   height: 70px;
   padding: 6px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+footer div a img:hover {
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 
 @media (max-width: 500px) {
@@ -466,6 +475,8 @@ footer div a img {
     height: auto;
     padding: 30px;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
   }
   .hero img {
     width: 250px;
@@ -475,10 +486,12 @@ footer div a img {
   }
   .hero div {
     padding: 20px;
+    margin: 20px;
     border: solid white 5px;
     border-radius: 1rem;
+    align-items: center;
   }
-  .hero h1 {
+  .hero h2 {
     font-size: 2rem;
     padding: 10px;
   }
@@ -544,7 +557,7 @@ footer div a img {
   }
   .heroproductos h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 54px;
     color: white;
     border: 5px solid white;
     border-radius: 30px;
@@ -562,7 +575,7 @@ footer div a img {
   }
   .heroservicios h1 {
     color: white;
-    font-size: 50px;
+    font-size: 43px;
     border: 5px solid white;
     border-radius: 30px;
     text-align: center;
@@ -594,9 +607,9 @@ footer div a img {
     align-items: center;
   }
   .imagenesdeservicios img {
-    height: 500px;
+    height: 350px;
     margin: 15px;
-    border: 10px dotted rgb(0, 0, 0);
+    border: 6px dotted rgb(0, 0, 0);
   }
   .heronosotros {
     height: auto;
@@ -626,60 +639,56 @@ footer div a img {
     margin: 10px;
     padding: 20px;
   }
-}
-.herocontacto {
-  min-height: auto;
-  padding: 20px;
-}
-.herocontacto h1 {
-  font-size: 40px;
-  padding: 8px 15px;
-  border-radius: 8px;
-}
-.herocontacto div {
-  max-width: 300px;
-  padding: 8px;
-}
-
-.formulario {
-  flex-direction: column;
-}
-
-form {
-  max-width: 300px;
-}
-
-input[type=submit], input[type=reset] {
-  font-size: 0.9rem;
-  padding: 8px 15px;
-  max-width: 150px;
-}
-
-footer {
-  grid-template-columns: 1fr;
-  padding: 15px;
-}
-footer h4 {
-  font-size: 20px;
-  padding-top: 10px;
-}
-footer h5 {
-  font-size: 20px;
-  padding-top: 10px;
-}
-footer div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-footer div a img {
-  width: 60px;
-  height: 60px;
-  padding: 5px;
-}
-footer div a img:active {
-  box-shadow: 10px 8px 10px rgb(255, 255, 255);
+  .herocontacto {
+    min-height: auto;
+    padding: 20px;
+  }
+  .herocontacto h1 {
+    font-size: 40px;
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
+  .herocontacto div {
+    max-width: 300px;
+    padding: 8px;
+  }
+  .formulario {
+    flex-direction: column;
+  }
+  form {
+    max-width: 300px;
+  }
+  input[type=submit], input[type=reset] {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    max-width: 150px;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  footer h4 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  footer h5 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  footer div a img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  footer div a img:active {
+    box-shadow: 10px 8px 10px rgb(255, 255, 255);
+  }
 }/*# sourceMappingURL=estilos.css.map */

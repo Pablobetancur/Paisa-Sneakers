@@ -5,6 +5,8 @@
 $rojo:red;
 $negro:black;
 
+
+
 @mixin proporcion ($alto,$ancho){
 
         width: $ancho;
@@ -25,6 +27,8 @@ $negro:black;
     align-items: $align;
 
 }
+
+
 
 
 

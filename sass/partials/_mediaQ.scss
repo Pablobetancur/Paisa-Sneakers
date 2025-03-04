@@ -6,7 +6,7 @@
         padding: 10px;
     
     
-    h1 {
+        h1 {
         position: sticky;
         top: 0;
         background-color: $negro;
@@ -15,54 +15,56 @@
         top: 0;
         display: block;
         width: 100%;
-    }
+        }
 
-    h1 a {
+        h1 a {
         font-size: 2rem; 
         border-bottom: 0.1875rem dotted $rojo;
         position: sticky;
         background-color: $negro;
         z-index: 1000;
-    }
+        }
 
     h1 a:active {
         color: lightcoral; 
         border-bottom: 0.1875rem solid lightcoral; 
         background-color: #222; 
-    }
+        }
 
     nav ul {
         grid-auto-flow: row; 
         gap: 20px;
         justify-content: center;
         padding: 10px 0;
-    }
+        }
 
     nav ul li {
         border-bottom: 3px dotted white;
-    }
+        }
 
     nav ul li:active {
         border-bottom: 3px solid $rojo; 
-    }
+        }
 
 
     nav ul li a {
         font-size: 1rem; 
-    }
+        }
 
     nav ul li a:active {
         color: lightcoral; 
         background-color: #222; 
-    }
+        }
 
 }
 
-.hero {
+.hero{
     grid-template-columns: 1fr;
     height: auto;
     padding: 30px;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 
     img {
         width: 250px;
@@ -70,25 +72,27 @@
         margin: 55px;
         border: 5px dotted white;
 
-    }
+        }
 
     div {
         padding: 20px;
+        margin: 20px;
         border: solid white 5px;
         border-radius: 1rem;
-    }
+        align-items: center;
+        }
 
-    h1 {
+    h2 {
         font-size: 2rem;
         padding: 10px;
-    }
+        }
 
     p {
         font-size: 1rem;
         padding: 5px;
-    }
+        }
         
-}
+    }
 
 .productos {
     grid-template-columns: 1fr;
@@ -100,17 +104,17 @@
         object-fit: cover;
         border: 2px solid red;
         border-radius: 8px;
-    }
+        }
 
     h3 {
         font-size: 1.125rem;
         padding: 8px;
         border-radius: 8px;
-    }
+        }
 
     div h3 a {
         font-size: 1rem;
-    }
+        }
 
 }
 
@@ -118,7 +122,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
     padding: 20px;
-   
+
     h3 {
         grid-column: span 1;
         font-size: 1.5rem;
@@ -145,7 +149,7 @@
         
     }
 
-}
+    }
 
 .heroproductos{
 
@@ -162,13 +166,14 @@
 
     h1{
         text-align: center;
-        font-size: 60px;
+        font-size: 54px;
         color: white;
         border: 5px solid white;
         border-radius: 30px;
+        
     
     }
-}
+    }
 
 .heroservicios{
 
@@ -181,19 +186,20 @@
     display: flex;
     justify-content: center ;
     align-items: center;
-    
-    }
-    
-    .heroservicios h1{
+
+    h1{
     
         color: white;
-        font-size: 50px;
+        font-size: 43px;
         border: 5px solid white;
         border-radius: 30px;
         text-align: center;
         text-shadow: 2px 2px 5px $negro;
         
     }   
+    
+        }
+
     .servicios-conte{
     
         height: auto;
@@ -202,25 +208,24 @@
         text-align: center;
         align-items: center;
         padding: 60px;
-        
-    }
-    
-    .servicios-conte ul{
+
+        ul{
     
         
-        border: 5px solid white;
-        border-radius: 10px;
-        padding: 30px;
-        text-align: center;
+            border: 5px solid white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        ul li{
+    
+            text-align: left;
+            font-size: 17px;   
+        }
+        
     }
-    
-    .servicios-conte ul li{
-    
-        text-align: left;
-        font-size: 17px;   
-    }
-    
-    
+
     .imagenesdeservicios{
     
     
@@ -229,17 +234,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img{
+    
+            height: 350px;
+            margin: 15px;
+            border: 6px dotted rgb(0, 0, 0);
+        }
     
         
     }
     
     
-    .imagenesdeservicios img{
-    
-        height: 500px;
-        margin: 15px;
-        border: 10px dotted rgb(0, 0, 0);
-    }
 
     .heronosotros {
         height: auto;
@@ -273,7 +279,7 @@
         margin: 10px;
         padding: 20px;
     }
-}
+
 
 
     .herocontacto {
@@ -338,6 +344,8 @@ footer {
     div a img:active{
 
         box-shadow: 10px 8px 10px rgb(255, 255, 255);
+    }
+
     }
 
 }
