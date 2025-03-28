@@ -1,48 +1,57 @@
 .heronosotros{
-    height: 800px;
+    height: 300px;
     background-image: url(../img/hero-nosotros.png);
+    background-position: bottom; 
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
-    text-align: left;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
 
-    h1{
+    h2{
     
-    
-        font-size: 70px;
-        text-align: center;
+        font-size: 100px;
         color: white;
-        background-color: rgb(255, 0, 0);
+        border: 3px solid white;
+        border-radius: 15px;
+        padding: 5px;
+        text-shadow: 2px 2px 5px $negro;
     }
 
-    ol{
-    
-        display: flex;
-        justify-content: center;
-        margin: 50px;
-        padding: 60px;
-    }
-
-    ol li{
-        background-color: $negro;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        margin: 10px;
-        padding: 30px;
-        list-style: none;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    
-    
-    }
 
 }
 
 .contenedornosotros{
     
-    margin: 30px;
-    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    height: 800px;    
+    padding: 100px;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(../img/fondo-rojo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    div{
+        background-color: $negro;
+        height: 250px;
+        width: 600px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+
+    }
     
 
+    
 }

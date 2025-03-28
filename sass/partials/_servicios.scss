@@ -10,7 +10,7 @@
     justify-content: center ;
     align-items: center;
 
-    h1{
+    h2{
     
         color: white;
         font-size: 100px;
@@ -55,12 +55,15 @@
 
 .imagenesdeservicios{
     
-    
     height: auto;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/fondo-blanco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     img{
     
